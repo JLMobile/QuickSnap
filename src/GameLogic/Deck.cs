@@ -54,7 +54,7 @@ namespace CardGames.GameLogic
 		/// </summary>
 		public void Shuffle()
 		{
- for(int i = 0; i < 52; i++)
+ /*for(int i = 0; i < 52; i++)
  {
  if(_cards[i].FaceUp) _cards[i].TurnOver();
  }
@@ -69,7 +69,7 @@ namespace CardGames.GameLogic
  _cards[i + rndIdx] = temp;
  }
  _topCard = 0;
- }
+ }*/
 		}
         
 		/// <summary>
