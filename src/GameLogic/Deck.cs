@@ -53,7 +53,7 @@ namespace CardGames.GameLogic
 		/// All cards are turned so that they are face down.
 		/// </summary>
 		public void Shuffle()
-		
+		{
  for(int i = 0; i < 52; i++)
  {
  if(_cards[i].FaceUp) _cards[i].TurnOver();
