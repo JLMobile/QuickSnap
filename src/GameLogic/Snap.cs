@@ -150,9 +150,6 @@ public Snap ()
  {
  _score[player]--;
  }
- // stop the game...
- _started = false;
- }
 
 			// stop the game...
 			_started = false;
