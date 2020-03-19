@@ -24,7 +24,7 @@ SwinGame.ProcessEvents();
 if (SwinGame.KeyTyped (KeyCode.vk_SPACE))
 {
 myGame.FlipNextCard ();
-} !
+} 
 if (myGame.IsStarted)
 {
 if ( SwinGame.KeyTyped (KeyCode.vk_LSHIFT) &&
